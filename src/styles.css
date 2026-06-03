@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-teal: #1e6b5e;
-  --color-teal-dark: #154d44;
-  --color-teal-light: #2d8a79;
+  --color-teal: #0e7a8f;
+  --color-teal-dark: #0a5a6e;
+  --color-teal-light: #1a9ab5;
   --color-gold: #c4955a;
   --color-gold-dark: #b5863f;
   --color-cream: #f9f7f2;
@@ -16,13 +16,13 @@
   --font-body: 'Inter', sans-serif;
 
   --shadow-nav: 0 1px 14px rgba(0,0,0,0.05);
-  --shadow-card: 0 2px 10px rgba(21,77,68,0.07), 0 10px 40px rgba(21,77,68,0.04);
-  --shadow-card-hover: 0 6px 22px rgba(21,77,68,0.13), 0 20px 56px rgba(21,77,68,0.07);
+  --shadow-card: 0 2px 10px rgba(10,90,110,0.07), 0 10px 40px rgba(10,90,110,0.04);
+  --shadow-card-hover: 0 6px 22px rgba(10,90,110,0.13), 0 20px 56px rgba(10,90,110,0.07);
   --shadow-gold: 0 4px 18px rgba(196,149,90,0.4), 0 1px 4px rgba(196,149,90,0.2);
   --shadow-gold-hover: 0 8px 28px rgba(196,149,90,0.5);
-  --shadow-teal: 0 6px 20px rgba(30,107,94,0.32);
+  --shadow-teal: 0 6px 20px rgba(14,122,143,0.32);
   --shadow-gold-circle: 0 6px 20px rgba(196,149,90,0.38);
-  --shadow-photo: 0 16px 56px rgba(21,77,68,0.18), 0 4px 16px rgba(0,0,0,0.07);
+  --shadow-photo: 0 16px 56px rgba(10,90,110,0.18), 0 4px 16px rgba(0,0,0,0.07);
   --shadow-badge: 0 8px 28px rgba(196,149,90,0.38);
 }
 
@@ -127,7 +127,7 @@
   /* Pill tag */
   .pill {
     @apply inline-block px-4 py-[0.45rem] rounded-full text-[0.8rem] font-medium text-teal;
-    background: rgba(30,107,94,0.09);
+    background: rgba(14,122,143,0.09);
   }
 
   /* Discipline row */
@@ -153,9 +153,10 @@
     border-radius: 50%;
     pointer-events: none;
   }
-  .blob-gold { background: radial-gradient(circle, rgba(196,149,90,0.14) 0%, transparent 68%); }
+  .blob-gold    { background: radial-gradient(circle, rgba(196,149,90,0.14) 0%, transparent 68%); }
   .blob-gold-sm { background: radial-gradient(circle, rgba(196,149,90,0.13) 0%, transparent 68%); }
-  .blob-white { background: radial-gradient(circle, rgba(255,255,255,0.07) 0%, transparent 68%); }
+  .blob-white   { background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 68%); }
+  .blob-teal    { background: radial-gradient(circle, rgba(26,154,181,0.18) 0%, transparent 68%); }
 
   /* Noise texture */
   .noise-layer { position: relative; }

@@ -9,7 +9,7 @@ export default function Nav() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-warm-white/90 backdrop-[-webkit-blur(12px)] border-b border-black/5 shadow-nav">
       <div className="max-w-[1120px] mx-auto px-6 flex items-center justify-between h-16">
         <a href="#" className="font-display text-lg text-teal no-underline tracking-tight">
-          Alex Warne
+          Alex Warne &amp; Associates
         </a>
 
         {/* Desktop links */}

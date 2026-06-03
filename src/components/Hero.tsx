@@ -1,8 +1,8 @@
 const stats = [
-  { value: '25+',  label: 'Years in Healthcare' },
+  { value: '25+',  label: 'Years in Health Care' },
   { value: 'CA',   label: 'Burlington, Ontario' },
   { value: 'PT·OT', label: 'SLP · Psych · MD' },
-  { value: 'ES',   label: 'Executive Solutions' },
+  { value: 'AWA',  label: 'Alex Warne & Associates' },
 ]
 
 export default function Hero() {
@@ -15,13 +15,16 @@ export default function Hero() {
         {/* Copy */}
         <div>
           <p className="au text-[0.72rem] tracking-[0.16em] uppercase text-gold mb-4">
-            Senior Director of Health Care Recruitment · Executive Solutions
+            President · Alex Warne &amp; Associates
           </p>
-          <h1 className="au au-d1 text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-[1.05] tracking-[-0.03em] mb-6">
+          <h1 className="au au-d1 text-5xl sm:text-6xl md:text-7xl font-bold text-white leading-[1.05] tracking-[-0.03em] mb-4">
             Alex<br />Warne
           </h1>
+          <p className="au au-d1 text-xl font-display text-white/80 mb-6 tracking-wide">
+            Health Care Recruiter
+          </p>
           <p className="au au-d2 text-lg text-white/75 leading-[1.72] max-w-[460px] mb-10">
-            Former physiotherapist turned recruiter — connecting healthcare organizations across Canada with the right clinical professional at the right time.
+            25+ years connecting Canadian healthcare organizations with exceptional physicians, therapists, and mental health professionals — the right candidate, the right opportunity, the right time.
           </p>
           <div className="au au-d3 flex flex-wrap gap-4">
             <a href="#contact" className="btn-gold">Work With Alex</a>
