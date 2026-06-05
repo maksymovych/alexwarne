@@ -17,7 +17,7 @@ export default function Specialties() {
             Disciplines &amp; Specialties
           </h2>
           <p className="text-ink-mid leading-[1.75] mb-8">
-            With a national network built over 25 years, Alex places clinical professionals across every major healthcare discipline.
+            With a national network built over 40 years, Alex places clinical professionals across every major healthcare discipline.
           </p>
           <div className="flex flex-col gap-4">
             {disciplines.map(d => (

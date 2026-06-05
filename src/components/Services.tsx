@@ -7,7 +7,7 @@ const services = [
     ),
     iconClass: 'bg-teal/10 text-teal',
     title: 'Physician Recruitment',
-    body: 'Primary care and specialist physicians, including internationally trained doctors from the US, UK, Ireland, Australia/New Zealand, and South Africa.',
+    body: 'Primary care and specialists - medical, orthopedic specialists, physicians, including internationally trained doctors from the US, UK, Ireland, Australia/New Zealand, and South Africa.',
   },
   {
     icon: (
